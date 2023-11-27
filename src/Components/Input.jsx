@@ -9,7 +9,7 @@ export default function Input() {
    setvaleur(val) }
   return (
     <div>
-      <form>
+      <form  className='container'>
         <input
           type="text"
           value={val}
